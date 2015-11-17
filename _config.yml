@@ -3,8 +3,8 @@ title: Milligan Rona Duran & King LLC
 email: j@kingesq.us
 description: > # this means to ignore newlines until "baseurl:"
   Substantial. Litigation.
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://www.milliganrona.com/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.milliganrona.com" # the base hostname & protocol for your site
 #twitter_username: jinho_king
 #github_username:  kjinho
 
