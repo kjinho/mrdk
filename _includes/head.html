@@ -1,0 +1,37 @@
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}  | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="Jin-Ho King, Esq.">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- IE Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/skeleton.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/print.css" | prepend: site.baseurl }}" type="text/css" media="print">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}">
+
+    <!-- Canonical Links
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+</head>

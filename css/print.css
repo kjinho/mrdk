@@ -1,0 +1,7 @@
+nav, .navbar, .navbar-list, .navbaritem {
+  display: none;
+}
+
+div#namebanner {
+  margin-top: 5%;
+}
