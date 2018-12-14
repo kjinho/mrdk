@@ -1,0 +1,13 @@
+{
+  "name": "TelexFree-spectre",
+  "version": "1.0.0",
+  "description": "MRDK webpage about TelexFree lawsuit",
+  "main": "index.md",
+  "repository": "https://github.com/kjinho/TelexFree-spectre.git",
+  "author": "Jin-Ho King <j@kingesq.us>",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {
+    "spectre.css": "^0.5.7"
+  }
+}
